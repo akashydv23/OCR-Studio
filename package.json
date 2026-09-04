@@ -1,0 +1,23 @@
+{
+  "name": "indic-ocr-v2-website",
+  "version": "1.0.0",
+  "description": "Browser-based, on-device OCR platform purpose-built for Indian regional languages with 200-300+ page streaming and agentic AI review",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/test-suite.js",
+    "serve": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "indic-ocr",
+    "devanagari",
+    "hindi",
+    "marathi",
+    "sanskrit",
+    "on-device",
+    "webassembly",
+    "agentic-ai"
+  ],
+  "author": "",
+  "license": "Apache-2.0"
+}
